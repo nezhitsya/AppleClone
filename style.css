@@ -1,3 +1,4 @@
+/* Global */
 *,
 *::before,
 *::after{
@@ -21,6 +22,7 @@ a{
     padding: 0 2.2rem;
 }
 
+/* Header */
 header{
     position: fixed;
     top: 0;
@@ -73,6 +75,66 @@ header{
 }
 
 .iphone-11-pro{
-    height: 69.2rem;
     background: url("images/hero/iphone-11-pro/iphone_11_pro_large.jpg");
+    margin-top: 4.4rem;
 }
+
+.hero{
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+/* iPhone 11 Pro section */
+.iphone-11-pro{
+    border-top: none;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+}
+
+.title-sub-heading{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+
+.title-price{
+    font-size: 1.7rem;
+    color: #888;
+    margin-top: .68rem;
+}
+
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.cta-link{
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+}
+
+/* iPhone 11 section */
