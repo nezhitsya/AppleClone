@@ -59,3 +59,20 @@ header{
     height: 4.4rem;
     background: url("images/icon/apple.svg") center no-repeat;
 }
+
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("images/icon/search.svg") center no-repeat;
+}
+
+.nav-link-bag{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url("images/icon/bag.svg") center no-repeat;
+}
+
+.iphone-11-pro{
+    height: 69.2rem;
+    background: url("images/hero/iphone-11-pro/iphone_11_pro_large.jpg");
+}
