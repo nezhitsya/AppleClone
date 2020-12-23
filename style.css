@@ -74,23 +74,10 @@ header{
     background: url("images/icon/bag.svg") center no-repeat;
 }
 
+/* iPhone 11 Pro section */
 .iphone-11-pro{
     background: url("images/hero/iphone-11-pro/iphone_11_pro_large.jpg");
     margin-top: 4.4rem;
-}
-
-.hero{
-    height: 69.2rem;
-    background-size: auto 73.6rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-top: .6rem solid #fff;
-    border-bottom: .6rem solid #fff;
-}
-
-/* iPhone 11 Pro section */
-.iphone-11-pro{
-    border-top: none;
 }
 
 .title{
@@ -138,3 +125,113 @@ header{
 }
 
 /* iPhone 11 section */
+.iphone-11{
+    background: url("images/hero/iphone-11/iphone_11_large.jpg");
+}
+
+.title-dark{
+    color: #000;
+}
+
+.cta-link-darker{
+    color: #0070c9;
+}
+
+.cta-link-darker:hover{
+    border-bottom-color: #0070c9;
+}
+
+/* watch section */
+.watch{
+    background: url("images/hero/watch/watch_large.jpg");
+}
+
+.title-heading-watch{
+    height: 7.8rem;
+    background: url("images/hero/watch/logo_watch_large.png") center no-repeat;
+    background-size: auto 7.8rem;
+    margin-top: 1.6rem;
+}
+
+/* Moved to the bottom of all section styles to keep consistent styles */
+.hero{
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.iphone-11-pro{
+    border-top: none;
+}
+
+/* end */
+
+@media screen and (max-width: 1068px){
+    .iphone-11-pro{
+        background: url(images/hero/iphone-11-pro/iphone_11_pro_medium.jpg);
+    }
+
+    .iphone-11{
+        background: url("images/hero/iphone-11/iphone_11_medium.jpg");
+    }
+
+    .watch{
+        background: url("images/hero/watch/watch_medium.jpg");
+    }
+
+    .hero{
+        height: 65rem;
+        background-size: auto 69.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+
+    .title-heading{
+        font-size: 4.4rem;
+    }
+
+    .title-sub-heading{
+        font-size: 2.4rem;
+    }
+
+    .cta-link:nth-child(2){
+        margin-left: 2rem;
+    }
+
+    .title-heading-watch{
+        height: 6.2rem;
+        background: url("images/hero/watch/logo_watch_medium.png") center no-repeat;
+        background-size: auto 6.2rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header{
+        height: 4.8rem;
+        transition: background .36s cubic-bezier(0.32, 0.08, 0.24, 1),
+        height .56s cubic-bezier(0.32, 0.08, 0.24, 1);
+    }
+
+    header .container{
+        padding: 0;
+    }
+
+    .iphone-11-pro{
+        margin-top: 4.8rem;
+    }
+
+    .nav-list-larger{
+        display: none;
+    }
+
+    .nav-list{
+        margin-top: 0;
+    }
+
+    .nav-list-mobile{
+        display: flex;
+    }
+}
